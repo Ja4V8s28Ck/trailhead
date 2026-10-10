@@ -142,7 +142,7 @@ def render_form() -> UserInput | None:
         if loc_method == "City name (geocode)":
             location_name = st.text_input(
                 "City / Town",
-                placeholder="e.g., Portland, OR or Seattle",
+                placeholder="e.g., Portland, IL or Seattle",
                 help="Uses Open-Meteo's free geocoding API",
             )
         else:
